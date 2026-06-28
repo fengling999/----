@@ -3,7 +3,7 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import "./globals.css";
 
-const siteUrl = new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000");
+const siteUrl = new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://fengling999.github.io/----");
 
 export const metadata: Metadata = {
   metadataBase: siteUrl,
